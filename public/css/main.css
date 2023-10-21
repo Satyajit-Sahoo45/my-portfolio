@@ -12,6 +12,15 @@ body {
   background: #262626;
 }
 
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* z-index: -1; */
+}
+
 .name__header {
   white-space: nowrap;
   color: #FFF;
@@ -235,7 +244,7 @@ body {
   display: inline-block;
   font-size: 2rem;
   text-transform: uppercase;
-  padding: 2rem 0;
+  padding: 1.5rem 0;
   font-weight: 300;
   transition: all 0.5s ease-in-out;
 }
@@ -560,6 +569,7 @@ body {
 
   .nav {
     visibility: visible;
+    background: #272727;
   }
 
   .nav .menu-nav {
@@ -576,7 +586,7 @@ body {
   }
 
   .nav .menu-nav__link {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .home {
