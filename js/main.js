@@ -3,7 +3,7 @@ const hamburger = document.querySelector('.menu-btn__burger');
 const nav = document.querySelector('.nav');
 const menuNav = document.querySelector('.menu-nav')
 const navItems = document.querySelectorAll('.menu-nav__item');
-const yearSpan  = document.getElementById('year');
+const yearSpan = document.getElementById('year');
 
 let currentYear = new Date().getFullYear();
 yearSpan.textContent = currentYear;
@@ -12,7 +12,7 @@ menuBtn.addEventListener('click', toggleMenu);
 let showMenu = false;
 
 function toggleMenu() {
-    if(!showMenu) {
+    if (!showMenu) {
         hamburger.classList.add('open')
         nav.classList.add('open');
         menuNav.classList.add('open');
@@ -29,3 +29,8 @@ function toggleMenu() {
         showMenu = false;
     }
 }
+
+document.getElementById("downloadBtn").addEventListener("click", function () {
+    window.location.href = "https://drive.google.com/file/d/1B9Xr4fSsLg06GS2wSGdQywM6ZtfUXndS/";
+});
+

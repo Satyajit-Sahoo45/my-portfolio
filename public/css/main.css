@@ -787,4 +787,12 @@ footer {
   color: #fff;
 }
 
-/*# sourceMappingURL=main.css.map */
+#downloadBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
