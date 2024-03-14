@@ -31,6 +31,6 @@ function toggleMenu() {
 }
 
 document.getElementById("downloadBtn").addEventListener("click", function () {
-    window.location.href = "https://drive.google.com/file/d/1B9Xr4fSsLg06GS2wSGdQywM6ZtfUXndS/";
+    window.location.href = "https://drive.google.com/file/d/1_cK5uDkWuSIsgRQwaTZKDlw--CXacwz3/view?usp=sharing";
 });
 
